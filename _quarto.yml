@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "Under Par Analytics LLC"
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: contact.qmd
+        text: Contact Us
+     
+    
+      
+  open-graph: true
+
+format:
+  html:
+    theme: simplex
+    css: styles.css
+    toc: true
+
+editor: visual
+  
